@@ -1,75 +1,87 @@
-# Travel App Voyager
+# 🌍 Voyager – Smart Travel Planning Platform
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-The original project is available at (https://boots-eagle-14542674.figma.site/)
+🔗 **Live Demo:** [boots-eagle-14542674.figma.site](https://boots-eagle-14542674.figma.site/)
+🎨 **Figma Design:** [Travel App Voyager](https://www.figma.com/design/0CnoWhg0MPPk7ogsgl022W/Travel-App-Voyager)
 
 ## About the Project
 
-Travel App Voyager is a travel planning platform designed to make the process of planning a trip simpler and more convenient. It brings destination search, itinerary suggestions, and recommendations for hotels and restaurants into one place. The project focuses on providing a clean and responsive interface that allows users to explore a destination and plan their trip without having to switch between multiple platforms.
-
-## Features
-
-The current prototype includes destination search, itinerary suggestions, and recommendations for hotels and restaurants. The interface is designed to be simple, responsive, and easy to navigate. The main idea is to provide users with a single platform for different parts of their travel planning process.
+Voyager is a travel planning platform that brings destination search, itinerary suggestions, and recommendations for hotels and restaurants into one place, so travelers can plan a whole trip without switching between multiple apps.
 
 ## Problem
 
-Travelers often use different applications for finding destinations, planning itineraries, looking for hotels, and discovering restaurants. This can make the planning process time-consuming and inconvenient. Voyager aims to reduce this fragmentation by bringing these features together into a single travel planning experience.
+Travelers often use separate apps for finding destinations, planning itineraries, booking hotels, and discovering restaurants. This makes planning slow and fragmented. Voyager brings these together into a single experience.
 
-## Tech Stack
+## ✨ Features
 
-The prototype was designed using Figma and developed as an interactive web experience using Figma SitesRuntime and Tailwind CSS.
-
-## Running the code
-
-Run `npm i` to install the dependencies.
-
-Run `npm run dev` to start the development server.
+- 🔍 **Destination Search** – explore places to visit
+- 🗺️ **Itinerary Suggestions** – plan day-by-day trips
+- 🏨 **Hotel & Restaurant Recommendations**
+- 🛍️ **Marketplace** – discover local products and experiences
+- 🍽️ **Food Corner** – find local cuisine
+- 🛡️ **Travel Safety** – safety information for travelers
+- 🥽 **Virtual 360° View** – preview destinations before visiting
+- 📱 Clean, responsive interface
 
 ## 📸 Screenshots
 
-### Market Place
-
-![Market Place](assets/MarketPlace.jpeg)
+### Marketplace
+![Marketplace](assets/MarketPlace.jpeg)
 
 ### Food Corner
-
-![Food Section](assets/Food_section.jpeg)
+![Food Corner](assets/Food_section.jpeg)
 
 ### Travel Safety
-
 ![Travel Safety](assets/Travel_Safety.jpeg)
 
-### Virtual 360 degree View
+### Virtual 360° View
+![360 View](assets/VR_view.jpeg)
 
-![VR view](assets/VR_view.jpeg)
+## 🛠️ Tech Stack
 
+- **Design:** Figma, Figma Make
+- **Frontend:** React, TypeScript, Vite
+- **Styling & UI:** Tailwind CSS, shadcn/ui (Radix UI), Material UI
 
-## Future Scope
+## 🚀 Getting Started
 
-The current prototype can be further developed into a fully functional travel application. Future improvements include integrating real-time APIs for flights, hotels, and maps, along with AI-based personalization for generating itineraries based on user preferences.
+```bash
+git clone https://github.com/StackVarun/Voyager.git
+cd Voyager
+npm install
+npm run dev
+```
 
-The application can also be extended with secure user login, saved trips, and a backend for managing user data. A mobile version can be developed using React Native or Flutter.
+Then open the local URL shown in the terminal (usually http://localhost:5173).
 
-## Expected Impact
+## 🔮 Future Scope
 
-Voyager aims to reduce the time and effort required to plan a trip by bringing different travel planning features together. It can help users discover suitable options, make better planning decisions, and have a more convenient travel experience.
+- Real-time APIs for flights, hotels, and maps
+- AI-based personalized itinerary generation
+- User login, saved trips, and a backend for user data
+- Mobile app using React Native or Flutter
+
+## 🎯 Expected Impact
+
+Voyager reduces the time and effort needed to plan a trip by combining key travel planning features in one place, helping users discover options and make better decisions.
 
 ## 🏆 Hackathon
 
-- Developed as part of **Smart India Hackathon (SIH) 2025**
-- Further improved and enhanced in **Smart India Hackathon (SIH) 2026**
+- Developed for **Smart India Hackathon (SIH) 2025**
+- Further improved in **Smart India Hackathon (SIH) 2026**
 
-## 👥 Contributors (2025-2026)
+## 👥 Contributors (2025–2026)
 
-- **M Punith Reddy**
-- **Thaejashree Karthika Chidambaram**
-- **Kawini G**
-- **Upakkara Dattu**
-- **Devika Prathap**
-- **Shobitha G**
-- **Varun T G**
-- **DSVG Pranay**
+- Devika Prathap
+- DSVG Pranay
+- Kawini G
+- M Punith Reddy
+- Shobitha G
+- Thaejashree Karthika Chidambaram
+- Upakkara Dattu
+- Varun T G
